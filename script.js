@@ -235,7 +235,7 @@ function showNotification(message, type = 'success') {
         position: fixed;
         top: 100px;
         right: 2rem;
-        background: ${type === 'success' ? 'linear-gradient(135deg, #B0C4B1 0%, #EDAFB8 100%)' : 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)'};
+        background: ${type === 'success' ? 'linear-gradient(135deg, #14B8A6 0%, #10B981 100%)' : 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)'};
         color: #4A5759;
         padding: 1rem 1.5rem;
         border-radius: 12px;
@@ -329,7 +329,7 @@ class CursorTrail {
                 position: fixed;
                 width: 8px;
                 height: 8px;
-                background: linear-gradient(135deg, #B0C4B1 0%, #EDAFB8 100%);
+                background: linear-gradient(135deg, #14B8A6 0%, #10B981 100%);
                 border-radius: 50%;
                 pointer-events: none;
                 opacity: ${1 - i * 0.1};
@@ -444,10 +444,10 @@ document.head.appendChild(rainbowStyle);
 // CONSOLE MESSAGE
 // ===================================
 
-console.log('%c👋 Hey there, curious developer!', 'font-size: 20px; font-weight: bold; color: #B0C4B1;');
-console.log('%cWelcome to my portfolio. If you\'re reading this, you might be interested in the code!', 'font-size: 14px; color: #EDAFB8;');
-console.log('%cFeel free to check out my GitHub: https://github.com/Suchitdas18', 'font-size: 14px; color: #DEDBD2;');
-console.log('%c💡 Pro tip: Try the Konami Code (↑ ↑ ↓ ↓ ← → ← → B A) for a surprise!', 'font-size: 12px; color: #B0C4B1;');
+console.log('%c👋 Hey there, curious developer!', 'font-size: 20px; font-weight: bold; color: #14B8A6;');
+console.log('%cWelcome to my portfolio. If you\'re reading this, you might be interested in the code!', 'font-size: 14px; color: #10B981;');
+console.log('%cFeel free to check out my GitHub: https://github.com/Suchitdas18', 'font-size: 14px; color: #14B8A6;');
+console.log('%c💡 Pro tip: Try the Konami Code (↑ ↑ ↓ ↓ ← → ← → B A) for a surprise!', 'font-size: 12px; color: #10B981;');
 
 // ===================================
 // INITIALIZE

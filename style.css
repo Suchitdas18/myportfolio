@@ -3,17 +3,17 @@
    =================================== */
 :root {
     /* Primary Colors - Emerald & Teal Theme */
-    --primary-gradient: linear-gradient(135deg, #B0C4B1 0%, #EDAFB8 100%);
+    --primary-gradient: linear-gradient(135deg, #14B8A6 0%, #c7899b 100%);
     --secondary-gradient: linear-gradient(135deg, #EDAFB8 0%, #F7E1D7 100%);
-    --accent-gradient: linear-gradient(135deg, #B0C4B1 0%, #DEDBD2 100%);
-    --success-gradient: linear-gradient(135deg, #B0C4B1 0%, #EDAFB8 100%);
+    --accent-gradient: linear-gradient(135deg, #14B8A6 0%, #10B981 100%);
+    --success-gradient: linear-gradient(135deg, #14B8A6 0%, #10B981 100%);
 
     /* Dark Theme Colors */
     --bg-primary: #F7E1D7;
     --bg-secondary: #EDAFB8;
     --bg-tertiary: #DEDBD2;
-    --bg-card: rgba(237, 175, 184, 0.3);
-    --bg-card-hover: rgba(237, 175, 184, 0.5);
+    --bg-card: rgba(74, 87, 89, 0.15);
+    --bg-card-hover: rgba(74, 87, 89, 0.25);
 
     /* Text Colors */
     --text-primary: #1a1a1a;
@@ -21,15 +21,15 @@
     --text-muted: #4A5759;
 
     /* Accent Colors */
-    --accent-primary: #B0C4B1;
-    --accent-secondary: #EDAFB8;
-    --accent-cyan: #DEDBD2;
+    --accent-primary: #14B8A6;
+    --accent-secondary: #c7899b;
+    --accent-cyan: #14B8A6;
     --accent-pink: #EDAFB8;
-    --accent-green: #B0C4B1;
+    --accent-green: #14B8A6;
 
     /* Glassmorphism */
     --glass-bg: rgba(255, 255, 255, 0.5);
-    --glass-border: rgba(176, 196, 177, 0.3);
+    --glass-border: rgba(74, 87, 89, 0.4);
 
     /* Shadows */
     --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.1);
