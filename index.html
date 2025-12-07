@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Suchit Das - Full Stack Developer, ML Enthusiast, and Cybersecurity Explorer. Building things my future self will thank me for.">
+    <meta name="keywords" content="Suchit Das, Full Stack Developer, Machine Learning, Portfolio, Web Developer">
+    <meta name="author" content="Suchit Das">
+    <title>Suchit Das | Full Stack Developer & ML Enthusiast</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background-animation">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-text">&lt;Suchit<span class="accent">Das</span>/&gt;</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-tag" data-aos="fade-up">
+                    <span class="tag-icon">👋</span>
+                    <span>Hey there! I'm</span>
+                </div>
+                <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+                    Suchit Das
+                </h1>
+                <div class="hero-subtitle-container" data-aos="fade-up" data-aos-delay="200">
+                    <span class="hero-subtitle">I'm a </span>
+                    <span class="typing-text" id="typingText"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description" data-aos="fade-up" data-aos-delay="300">
+                    3rd Year B.Tech CSE @ KIIT | Building things my future self will thank me for.<br>
+                    <span class="quote">"Code is poetry, security is art, AI is the future"</span>
+                </p>
+                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="400">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Let's Connect</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </a>
+                </div>
+                <div class="hero-social" data-aos="fade-up" data-aos-delay="500">
+                    <a href="https://github.com/Suchitdas18" target="_blank" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/suchit-das-348513280/" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:suchitdas@example.com" class="social-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://twitter.com/suchitdas" target="_blank" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left" data-aos-delay="600">
+                <div class="image-wrapper">
+                    <div class="floating-card card-1">
+                        <i class="fas fa-code"></i>
+                        <span>Full Stack Dev</span>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fas fa-brain"></i>
+                        <span>ML/AI</span>
+                    </div>
+                    <div class="floating-card card-3">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Cybersecurity</span>
+                    </div>
+                    <div class="profile-circle">
+                        <div class="circle-inner">
+                            <i class="fas fa-user-astronaut"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Get to know me</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <div class="about-card">
+                        <div class="about-card-header">
+                            <i class="fas fa-rocket"></i>
+                            <h3>Building the Future</h3>
+                        </div>
+                        <p>
+                            I'm a passionate <strong>Full Stack Developer</strong> and <strong>ML Enthusiast</strong> 
+                            currently pursuing B.Tech in Computer Science at KIIT University. I love creating 
+                            innovative solutions that make a real impact.
+                        </p>
+                        <p>
+                            My journey in tech is driven by curiosity and a desire to solve complex problems. 
+                            From building full-stack applications to exploring the depths of machine learning 
+                            and cybersecurity, I'm constantly pushing my boundaries.
+                        </p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="11">0</div>
+                            <div class="stat-label">GitHub Repos</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="20">0</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="5">0</div>
+                            <div class="stat-label">Hackathons</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="4">0</div>
+                            <div class="stat-label">Certifications</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-highlights" data-aos="fade-left">
+                    <div class="highlight-card">
+                        <div class="highlight-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h4>Currently Learning</h4>
+                        <ul class="highlight-list">
+                            <li><i class="fas fa-check-circle"></i> Advanced Machine Learning & Deep Learning</li>
+                            <li><i class="fas fa-check-circle"></i> Cloud Architecture (AWS, Docker)</li>
+                            <li><i class="fas fa-check-circle"></i> Web3 & Blockchain Fundamentals</li>
+                            <li><i class="fas fa-check-circle"></i> Advanced Cybersecurity Techniques</li>
+                        </ul>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h4>What Drives Me</h4>
+                        <ul class="highlight-list">
+                            <li><i class="fas fa-heart"></i> Building tools that solve real problems</li>
+                            <li><i class="fas fa-heart"></i> Exploring AI/ML applications in everyday life</li>
+                            <li><i class="fas fa-heart"></i> Securing the digital world</li>
+                            <li><i class="fas fa-heart"></i> Creating fast, beautiful web experiences</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">My expertise</span>
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="skills-grid">
+                <!-- Frontend -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="category-header">
+                        <i class="fas fa-palette"></i>
+                        <h3>Frontend Universe</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fab fa-react" style="color: #61DAFB;"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-html5" style="color: #E34F26;"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt" style="color: #1572B6;"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js" style="color: #F7DF1E;"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-bootstrap" style="color: #7952B3;"></i>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="category-header">
+                        <i class="fas fa-server"></i>
+                        <h3>Backend & Database</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fab fa-node-js" style="color: #339933;"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database" style="color: #4DB33D;"></i>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database" style="color: #336791;"></i>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-fire" style="color: #FFCA28;"></i>
+                            <span>Firebase</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-bolt" style="color: #DC382D;"></i>
+                            <span>Redis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Languages -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fab fa-python" style="color: #3776AB;"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-java" style="color: #007396;"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code" style="color: #00599C;"></i>
+                            <span>C++</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js" style="color: #F7DF1E;"></i>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DevOps & Cloud -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                    <div class="category-header">
+                        <i class="fas fa-cloud"></i>
+                        <h3>DevOps & Cloud</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fab fa-docker" style="color: #2496ED;"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-aws" style="color: #FF9900;"></i>
+                            <span>AWS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt" style="color: #F05032;"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-github" style="color: #ffffff;"></i>
+                            <span>GitHub</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ML/AI -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="500">
+                    <div class="category-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>ML/AI</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fas fa-robot" style="color: #FF6F00;"></i>
+                            <span>TensorFlow</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-brain" style="color: #EE4C2C;"></i>
+                            <span>PyTorch</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-line" style="color: #013243;"></i>
+                            <span>Pandas</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-square-root-alt" style="color: #4B8BBE;"></i>
+                            <span>NumPy</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-eye" style="color: #5C3EE8;"></i>
+                            <span>OpenCV</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="600">
+                    <div class="category-header">
+                        <i class="fas fa-toolbox"></i>
+                        <h3>Tools & Productivity</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fas fa-code" style="color: #007ACC;"></i>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-figma" style="color: #F24E1E;"></i>
+                            <span>Figma</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cube" style="color: #FF6C37;"></i>
+                            <span>Postman</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-terminal" style="color: #4EAA25;"></i>
+                            <span>Linux</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">What I've built</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1: WhatsApp Clone -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Suchitdas18" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <img src="whatsapp-preview.png" alt="WhatsApp Clone" id="whatsapp-img">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>💬 WhatsApp Clone</h3>
+                            <span class="project-badge">Full Stack</span>
+                        </div>
+                        <p class="project-description">
+                            Real-time messaging platform with OTP authentication, user profiles, and modern chat interface. 
+                            Features include message delivery status, typing indicators, and real-time updates.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Socket.io</span>
+                            <span class="tech-tag">Redis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Netflix Clone -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Suchitdas18/netflix-clone" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <img src="netflix-preview.png" alt="Netflix Clone" id="netflix-img">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>🎬 Netflix Clone</h3>
+                            <span class="project-badge">Frontend</span>
+                        </div>
+                        <p class="project-description">
+                            Netflix-inspired streaming platform with dynamic movie posters, My List feature, 
+                            smooth animations, and professional UI. Perfect pixel-perfect clone with modern web technologies.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Local Storage</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Wheat Disease Detection -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Suchitdas18" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <img src="wheat-preview.png" alt="Wheat Disease Detection" id="wheat-img">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>🌾 Wheat Disease Detection AI</h3>
+                            <span class="project-badge">ML/AI</span>
+                        </div>
+                        <p class="project-description">
+                            ML-powered wheat disease detection system helping farmers identify crop diseases early 
+                            using computer vision. Trained on real-world dataset with high accuracy.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Flask</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Smart Campus Insights -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Suchitdas18/smart-campus-insights" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <img src="campus-preview.png" alt="Smart Campus Insights" id="campus-img">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>🎓 KIIT Pathfinder</h3>
+                            <span class="project-badge">Full Stack</span>
+                        </div>
+                        <p class="project-description">
+                            Smart campus navigation and insights platform for KIIT University. 
+                            Features include admin panel, real-time updates, and comprehensive documentation.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Express</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: Weather App -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Suchitdas18/weather-app-react" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <img src="weather-preview.png" alt="Weather App" id="weather-img">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>🌤️ Weather App</h3>
+                            <span class="project-badge">Frontend</span>
+                        </div>
+                        <p class="project-description">
+                            Simple and elegant weather application using React that shows current temperature 
+                            and weather conditions for any city. Clean UI with real-time data.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">API Integration</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: Cybersecurity Analysis -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Suchitdas18" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <img src="cyber-preview.png" alt="Cybersecurity Analysis" id="cyber-img">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>🔐 Cybersecurity Data Analysis</h3>
+                            <span class="project-badge">Data Science</span>
+                        </div>
+                        <p class="project-description">
+                            Analyzing cybersecurity threats and patterns using Python. Data-driven insights 
+                            for a safer digital world with comprehensive threat analysis.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">NumPy</span>
+                            <span class="tech-tag">Matplotlib</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-more" data-aos="fade-up">
+                <a href="https://github.com/Suchitdas18" target="_blank" class="btn btn-primary">
+                    <span>View All Projects on GitHub</span>
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Recognition</span>
+                <h2 class="section-title">Achievements & Certifications</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="achievements-grid">
+                <!-- Hackathons -->
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="achievement-icon trophy">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>🏅 SIH Internal Hackathon</h3>
+                    <p class="achievement-rank">Rank 4</p>
+                    <p class="achievement-description">
+                        Smart India Hackathon internal competition showcasing innovative solutions
+                    </p>
+                </div>
+
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="achievement-icon winner">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>🏅 Vision Bharat Trust</h3>
+                    <p class="achievement-rank">1st Position</p>
+                    <p class="achievement-description">
+                        Winner of Community Challenge for impactful tech solutions
+                    </p>
+                </div>
+
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="achievement-icon finalist">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>🎯 NITR Innovathon 25</h3>
+                    <p class="achievement-rank">Finalist</p>
+                    <p class="achievement-description">
+                        Selected as finalist in prestigious national innovation event
+                    </p>
+                </div>
+
+                <!-- Certifications -->
+                <div class="achievement-card certification" data-aos="fade-up" data-aos-delay="400">
+                    <div class="achievement-icon cert">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>AWS ML & AI Fundamentals</h3>
+                    <p class="achievement-provider">Amazon Web Services</p>
+                    <p class="achievement-description">
+                        Certified in ML and AI fundamentals on AWS platform
+                    </p>
+                </div>
+
+                <div class="achievement-card certification" data-aos="fade-up" data-aos-delay="500">
+                    <div class="achievement-icon cert">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Data-Driven Cybersecurity</h3>
+                    <p class="achievement-provider">KIIT University</p>
+                    <p class="achievement-description">
+                        Python-based cybersecurity analysis and threat detection
+                    </p>
+                </div>
+
+                <div class="achievement-card certification" data-aos="fade-up" data-aos-delay="600">
+                    <div class="achievement-icon cert">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Problem Solving Master</h3>
+                    <p class="achievement-provider">Udemy</p>
+                    <p class="achievement-description">
+                        Advanced problem-solving techniques and algorithms
+                    </p>
+                </div>
+
+                <div class="achievement-card certification" data-aos="fade-up" data-aos-delay="700">
+                    <div class="achievement-icon cert">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Full Stack Development</h3>
+                    <p class="achievement-provider">Apna College</p>
+                    <p class="achievement-description">
+                        Comprehensive full-stack web development bootcamp
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Get in touch</span>
+                <h2 class="section-title">Let's Work Together</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Let's Connect!</h3>
+                    <p class="contact-tagline">
+                        I'm always excited to discuss new projects, creative ideas, or opportunities to be part of your vision.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <a href="mailto:suchitdas@example.com">suchitdas@example.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Bhubaneswar, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Status</h4>
+                                <p>3rd Year CSE @ KIIT</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Suchitdas18" target="_blank" class="social-btn github">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/suchit-das-348513280/" target="_blank" class="social-btn linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://twitter.com/suchitdas" target="_blank" class="social-btn twitter">
+                            <i class="fab fa-twitter"></i>
+                            <span>Twitter</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Let's collaborate!" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p class="quote">"The best way to predict the future is to build it."</p>
+                    <p class="copyright">
+                        Made with <span class="heart">💚</span> by Suchit Das © 2024
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#achievements">Achievements</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
