@@ -195,12 +195,39 @@ backToTopBtn.addEventListener('click', () => {
 });
 
 // ===================================
-// CONTACT FORM HANDLING
+// CONTACT FORM HANDLING WITH EMAILJS
 // ===================================
 
-// Form is handled by Formspree - no JavaScript needed
+// Initialize EmailJS (replace with your credentials)
+(function() {
+    emailjs.init("5aqCUevY548PMhDx2"); // Your EmailJS public key
+})();
+
 const contactForm = document.getElementById('contactForm');
 
+contactForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    
+    // Show loading state
+    const submitBtn = contactForm.querySelector('.submit-btn');
+    const originalText = submitBtn.innerHTML;
+    submitBtn.innerHTML = '<span>Sending...</span><i class="fas fa-spinner fa-spin"></i>';
+    submitBtn.disabled = true;
+    
+    // Send email using EmailJS
+    emailjs.sendForm('service_t10t0rn', 'template_p8xhwjq', contactForm)
+        .then(() => {
+            showNotification('Message sent successfully! I\'ll get back to you soon.', 'success');
+            contactForm.reset();
+        }, (error) => {
+            showNotification('Failed to send message. Please try again or email me directly.', 'error');
+            console.error('EmailJS error:', error);
+        })
+        .finally(() => {
+            submitBtn.innerHTML = originalText;
+            submitBtn.disabled = false;
+        });
+});
 
 // ===================================
 // NOTIFICATION SYSTEM
