@@ -3,39 +3,39 @@
    =================================== */
 :root {
     /* Primary Colors - Emerald & Teal Theme */
-    --primary-gradient: linear-gradient(135deg, #14B8A6 0%, #c7899b 100%);
-    --secondary-gradient: linear-gradient(135deg, #EDAFB8 0%, #F7E1D7 100%);
-    --accent-gradient: linear-gradient(135deg, #14B8A6 0%, #10B981 100%);
-    --success-gradient: linear-gradient(135deg, #14B8A6 0%, #10B981 100%);
+    --primary-gradient: linear-gradient(135deg, #807094 0%, #ef98a7 100%);
+    --secondary-gradient: linear-gradient(135deg, #ef98a7 0%, #f7bea9 100%);
+    --accent-gradient: linear-gradient(135deg, #807094 0%, #604f71 100%);
+    --success-gradient: linear-gradient(135deg, #807094 0%, #ef98a7 100%);
 
     /* Dark Theme Colors */
-    --bg-primary: #F7E1D7;
-    --bg-secondary: #EDAFB8;
-    --bg-tertiary: #DEDBD2;
-    --bg-card: rgba(74, 87, 89, 0.15);
-    --bg-card-hover: rgba(74, 87, 89, 0.25);
+    --bg-primary: #fcfcfb;
+    --bg-secondary: #f7bea9;
+    --bg-tertiary: #ef98a7;
+    --bg-card: rgba(247, 190, 169, 0.3);
+    --bg-card-hover: rgba(247, 190, 169, 0.5);
 
     /* Text Colors */
-    --text-primary: #1a1a1a;
-    --text-secondary: #2a2a2a;
-    --text-muted: #4A5759;
+    --text-primary: #604f71;
+    --text-secondary: #807094;
+    --text-muted: #807094;
 
     /* Accent Colors */
-    --accent-primary: #14B8A6;
-    --accent-secondary: #c7899b;
-    --accent-cyan: #14B8A6;
-    --accent-pink: #EDAFB8;
-    --accent-green: #14B8A6;
+    --accent-primary: #807094;
+    --accent-secondary: #ef98a7;
+    --accent-cyan: #807094;
+    --accent-pink: #ef98a7;
+    --accent-green: #807094;
 
     /* Glassmorphism */
     --glass-bg: rgba(255, 255, 255, 0.5);
-    --glass-border: rgba(74, 87, 89, 0.4);
+    --glass-border: rgba(128, 112, 148, 0.3);
 
     /* Shadows */
     --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.1);
     --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.12);
     --shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.3);
-    --shadow-glow: 0 0 40px rgba(176, 196, 177, 0.3);
+    --shadow-glow: 0 0 40px rgba(128, 112, 148, 0.4);
 
     /* Transitions */
     --transition-fast: 0.2s ease;
@@ -163,7 +163,7 @@ body {
 }
 
 .navbar.scrolled {
-    background: rgba(247, 225, 215, 0.95);
+    background: rgba(252, 252, 251, 0.95);
     backdrop-filter: blur(10px);
     box-shadow: var(--shadow-md);
     padding: 1rem 0;
@@ -309,7 +309,7 @@ body {
     font-weight: 900;
     line-height: 1.1;
     margin-bottom: 1rem;
-    background: linear-gradient(135deg, #4A5759 0%, #B0C4B1 100%);
+    background: linear-gradient(135deg, #604f71 0%, #807094 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -407,13 +407,13 @@ body {
 
 .btn-primary {
     background: var(--primary-gradient);
-    color: #4A5759;
-    box-shadow: 0 10px 30px rgba(176, 196, 177, 0.3);
+    color: #604f71;
+    box-shadow: 0 10px 30px rgba(128, 112, 148, 0.3);
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 15px 40px rgba(176, 196, 177, 0.4);
+    box-shadow: 0 15px 40px rgba(128, 112, 148, 0.4);
 }
 
 .btn-secondary {
@@ -484,11 +484,11 @@ body {
 
     0%,
     100% {
-        box-shadow: 0 0 0 0 rgba(176, 196, 177, 0.7);
+        box-shadow: 0 0 0 0 rgba(128, 112, 148, 0.7);
     }
 
     50% {
-        box-shadow: 0 0 0 30px rgba(176, 196, 177, 0);
+        box-shadow: 0 0 0 30px rgba(128, 112, 148, 0);
     }
 }
 
@@ -658,7 +658,7 @@ section {
     font-size: 3rem;
     font-weight: 800;
     margin-bottom: 1rem;
-    background: linear-gradient(135deg, #4A5759 0%, #B0C4B1 100%);
+    background: linear-gradient(135deg, #604f71 0%, #807094 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -783,7 +783,7 @@ section {
     align-items: center;
     justify-content: center;
     font-size: 1.8rem;
-    color: #4A5759;
+    color: #fcfcfb;
     margin-bottom: 1rem;
 }
 
@@ -934,7 +934,7 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(176, 196, 177, 0.9);
+    background: rgba(128, 112, 148, 0.9);
     display: flex;
     align-items: center;
     justify-content: center;

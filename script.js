@@ -198,24 +198,9 @@ backToTopBtn.addEventListener('click', () => {
 // CONTACT FORM HANDLING
 // ===================================
 
+// Form is handled by Formspree - no JavaScript needed
 const contactForm = document.getElementById('contactForm');
 
-contactForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    
-    const formData = {
-        name: document.getElementById('name').value,
-        email: document.getElementById('email').value,
-        subject: document.getElementById('subject').value,
-        message: document.getElementById('message').value
-    };
-    
-    // Show success message (you can replace this with actual form submission logic)
-    showNotification('Message sent successfully! I\'ll get back to you soon.', 'success');
-    
-    // Reset form
-    contactForm.reset();
-});
 
 // ===================================
 // NOTIFICATION SYSTEM
@@ -235,8 +220,8 @@ function showNotification(message, type = 'success') {
         position: fixed;
         top: 100px;
         right: 2rem;
-        background: ${type === 'success' ? 'linear-gradient(135deg, #14B8A6 0%, #10B981 100%)' : 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)'};
-        color: #4A5759;
+        background: ${type === 'success' ? 'linear-gradient(135deg, #807094 0%, #ef98a7 100%)' : 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)'};
+        color: #fcfcfb;
         padding: 1rem 1.5rem;
         border-radius: 12px;
         display: flex;
@@ -329,7 +314,7 @@ class CursorTrail {
                 position: fixed;
                 width: 8px;
                 height: 8px;
-                background: linear-gradient(135deg, #14B8A6 0%, #10B981 100%);
+                background: linear-gradient(135deg, #807094 0%, #ef98a7 100%);
                 border-radius: 50%;
                 pointer-events: none;
                 opacity: ${1 - i * 0.1};
@@ -444,10 +429,10 @@ document.head.appendChild(rainbowStyle);
 // CONSOLE MESSAGE
 // ===================================
 
-console.log('%c👋 Hey there, curious developer!', 'font-size: 20px; font-weight: bold; color: #14B8A6;');
-console.log('%cWelcome to my portfolio. If you\'re reading this, you might be interested in the code!', 'font-size: 14px; color: #10B981;');
-console.log('%cFeel free to check out my GitHub: https://github.com/Suchitdas18', 'font-size: 14px; color: #14B8A6;');
-console.log('%c💡 Pro tip: Try the Konami Code (↑ ↑ ↓ ↓ ← → ← → B A) for a surprise!', 'font-size: 12px; color: #10B981;');
+console.log('%c👋 Hey there, curious developer!', 'font-size: 20px; font-weight: bold; color: #807094;');
+console.log('%cWelcome to my portfolio. If you\'re reading this, you might be interested in the code!', 'font-size: 14px; color: #ef98a7;');
+console.log('%cFeel free to check out my GitHub: https://github.com/Suchitdas18', 'font-size: 14px; color: #604f71;');
+console.log('%c💡 Pro tip: Try the Konami Code (↑ ↑ ↓ ↓ ← → ← → B A) for a surprise!', 'font-size: 12px; color: #807094;');
 
 // ===================================
 // INITIALIZE
