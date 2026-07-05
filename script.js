@@ -77,11 +77,12 @@ function updateActiveNavLink() {
 
 const typingText = document.getElementById('typingText');
 const roles = [
+    'AI Engineer',
     'Full Stack Developer',
-    'ML/AI Enthusiast',
-    'Cybersecurity Explorer',
-    'Problem Solver',
-    'Open Source Contributor'
+    'Agentic AI Builder',
+    'Research Intern @ IIT BBS',
+    'Entrepreneur & Founder',
+    'Problem Solver'
 ];
 
 let roleIndex = 0;
@@ -247,7 +248,7 @@ function showNotification(message, type = 'success') {
         position: fixed;
         top: 100px;
         right: 2rem;
-        background: ${type === 'success' ? 'linear-gradient(135deg, #807094 0%, #ef98a7 100%)' : 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)'};
+        background: ${type === 'success' ? 'linear-gradient(135deg, #2563eb 0%, #0ea5e9 100%)' : 'linear-gradient(135deg, #ef4444 0%, #dc2626 100%)'};
         color: #fcfcfb;
         padding: 1rem 1.5rem;
         border-radius: 12px;
@@ -341,7 +342,7 @@ class CursorTrail {
                 position: fixed;
                 width: 8px;
                 height: 8px;
-                background: linear-gradient(135deg, #807094 0%, #ef98a7 100%);
+                background: linear-gradient(135deg, #2563eb 0%, #0ea5e9 100%);
                 border-radius: 50%;
                 pointer-events: none;
                 opacity: ${1 - i * 0.1};
@@ -456,10 +457,10 @@ document.head.appendChild(rainbowStyle);
 // CONSOLE MESSAGE
 // ===================================
 
-console.log('%c👋 Hey there, curious developer!', 'font-size: 20px; font-weight: bold; color: #807094;');
-console.log('%cWelcome to my portfolio. If you\'re reading this, you might be interested in the code!', 'font-size: 14px; color: #ef98a7;');
-console.log('%cFeel free to check out my GitHub: https://github.com/Suchitdas18', 'font-size: 14px; color: #604f71;');
-console.log('%c💡 Pro tip: Try the Konami Code (↑ ↑ ↓ ↓ ← → ← → B A) for a surprise!', 'font-size: 12px; color: #807094;');
+console.log('%c👋 Hey there, curious developer!', 'font-size: 20px; font-weight: bold; color: #2563eb;');
+console.log('%cWelcome to my portfolio. If you\'re reading this, you might be interested in the code!', 'font-size: 14px; color: #0ea5e9;');
+console.log('%cFeel free to check out my GitHub: https://github.com/Suchitdas18', 'font-size: 14px; color: #38bdf8;');
+console.log('%c💡 Pro tip: Try the Konami Code (↑ ↑ ↓ ↓ ← → ← → B A) for a surprise!', 'font-size: 12px; color: #2563eb;');
 
 // ===================================
 // INITIALIZE
